@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.Scaffold {
+  max-width: 650px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#GejalaText label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#GejalaText input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#GejalaText label:hover {
+  background-color: #f5f5f5;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:active {
+  transform: scale(0.95); /* Mengurangi ukuran tombol saat ditekan */
+}
+
+#result {
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
