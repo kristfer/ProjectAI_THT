@@ -96,3 +96,4 @@ function Diagnosa() {
 function closeModal() {
   document.getElementById("modal").style.display = "none";
 }
+
