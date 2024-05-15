@@ -8,8 +8,18 @@
   </head>
 
   <body>
+    <div id="modal" class="modal-overlay">
+      <div class="modal-content">
+        <button class="close-button" onclick="closeModal()">Tutup</button>
+        <div id="modal-result">
+          <!-- Konten hasil diagnosa akan ditampilkan di sini -->
+        </div>
+      </div>
+    </div>
+
     <header>Diagnosa THT</header>
     <div class="Scaffold">
+      <h2 style="text-align: center">Pilih diagnosa yang anda alami</h2>
       <form id="GejalaText">
         <label><input type="checkbox" name="symtomp" value="1" /> Demam</label>
         <label
@@ -153,9 +163,8 @@
           seimbang</label
         >
       </form>
+      <button type="button" onclick="Diagnosa()">Submit</button>
     </div>
-    <button type="button" onclick="Diagnosa()">Submit</button>
-    <div id="result"></div>
 
     <script src="./script.js"></script>
   </body>
